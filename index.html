@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Jha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Ayush Jha</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#additional">ADDITIONAL</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ayush Jha</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">SKILLS</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+                <li><a href="#additional" onclick="toggleMenu()">ADDITIONAL</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="profile__pic-container">
+            <img src="./assets/profile-pic.jpg" alt="Profile Pic " class="profile-picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm </p>
+            <h1 class="title">Ayush Jha</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/resume-resume-example.pdf')">Download CV</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https:Linkedin.com/in/ayush-jha-155a27252/'">
+
+                <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/JhaAyushCanCode'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Profile Pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container education-block">
+                        <img src="./assets/education.png" alt="Experience icon" class="icon">
+                        <h3>Education</h3>
+                        <p>BTech - Engineering Physics <br>DTU</p>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            With a focus on simplifying complex problems, I specialize in developing practical solutions through programming and innovative thinking. As a project enthusiast, I've led impactful initiatives, optimizing elevator systems, automating website creation, ensuring product authenticity, and forecasting stock prices. Using languages like C++, Python, and JavaScript, along with frameworks and tools such as BOOST, React.js, and PyTorch, I've consistently delivered efficient algorithms and user-friendly platforms. My academic background in B. Tech from Delhi Technological University provides a strong foundation in areas like microprocessors, digital electronics, and communication systems. Beyond my technical skills, I've also demonstrated leadership as a programming mentor, dance battle winner, and team leader, showcasing a well-rounded approach to problem-solving and collaboration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'">
+    </section>
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers about-skills">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Experienced</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>7 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>7 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>5 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>C++</h3>
+                                <p>5 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>2 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>DSA</h3>
+                                <p>200+ (Leetcode)</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Intermediate</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MERN Stack</h3>
+                                <p>2 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>2 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>AWS</h3>
+                                <p>1 Project</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>MATLAB</h3>
+                                <p>11 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>Assembly</h3>
+                                <p>10 Projects</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience Icon" class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>10 Projects</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers project-block">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-1.jpg" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">ELEVATE</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JhaAyushCanCode/ELEVATE'">
+                        GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://google.com'">
+                        Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-2.jpg" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">NOVA</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JhaAyushCanCode/NOVA'">
+                        GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://google.com'">
+                        Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Verif-EYE</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JhaAyushCanCode/Verif-EYE'">
+                        GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://google.com'">
+                        Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-4.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Forcast-IQ</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/JhaAyushCanCode/Forcast-IQ'">
+                        GitHub
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://google.com'">
+                        Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#additional'">
+    </section>
+    <section id="additional">
+        <p class="section__text__p1">Know More</p>
+        <h1 class="title">Additional</h1>
+        <p class="section__text__p1">Info</p>
+        <div class="additional-block">
+            <div class="details-container">
+                <img src="./assets/education.png" alt="Experience icon" class="icon">
+                <h3>Programming Mentor</h3>
+                <p>IEEE-DTU <br>Mentored 200+ students in Programming (C++, Python, DSA)</p>
+            </div><div class="details-container">
+                <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                <h3>Winner</h3>
+                <p>IIT-Bombay <br>National level street dance battle ‘NachYudh',Mood Indigo</p>
+            </div><div class="details-container">
+                <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                <h3>Delhi-State, Runner-up</h3>
+                <p>Captain of Football Team <br>Led football team to win 2nd position in state level tournament by Delhi Soccer Association</p>
+            </div><div class="details-container">
+                <img src="./assets/experience.png" alt="Experience icon" class="icon">
+                <h3>Gold Medal</h3>
+                <p>NSTSE Olympiad<br>NSTSE Gold Medalist</p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon">
+                <p>
+                    <a href="mailto:jhaayush710@gmail.com">jhaayush710@gmail.com</a>
+                </p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon">
+                <p>
+                    <a href="https://www.linkedin.com/in/ayush-jha-155a27252/">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#projects">PROJECTS</a></li>
+                    <li><a href="#additional">ADDITIONAL</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Ayush Jha. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
